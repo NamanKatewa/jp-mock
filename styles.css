@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0d6efd;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.hero {
+  margin: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #d6d6d8;
+}
+
+.job-listings {
+  padding: 50px 20px;
+}
+
+.job {
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job a {
+  transition: all 0.2s;
+}
+
+.job a:hover {
+  color: cadetblue;
+}
+
+footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
